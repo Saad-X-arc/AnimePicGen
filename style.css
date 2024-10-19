@@ -1,0 +1,63 @@
+
+.btnholder{
+  top:0;
+  border-bottom: 1px;
+  border-color: black;
+  display:flex;
+  
+}
+button {
+  padding: 10px 20px; 
+  font-size: 16px; 
+  margin:0 auto;
+  background-color: #f40353;
+  color:black;
+  border-radius: 10px;
+  height:auto;
+  width:auto;
+  transition:0.15s;
+}
+
+button:hover{
+  background: #f40353;
+  color: #050801;
+  box-shadow: 0 0 5px #f40353,
+              0 0 25px #f40353,
+              0 0 50px #f40353,
+              0 0 200px #f40353;
+   -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+   cursor:pointer;
+}
+
+button:active{
+  background-color: rgba(0, 0, 0, 0.356);
+}
+.outercontainer{
+  width:100%;
+  height:auto;
+  display:flex;
+  margin-top: 30px;
+}
+.container{
+  margin:0  auto;
+  vertical-align: center;  
+
+}
+img{
+  display:none;
+  height:90vh;
+  width:auto;
+  text-align: center;
+  margin:0 auto;
+  filter:drop-shadow(5px 5px 10px #5555);
+}
+@media screen and (max-width: 768px) {
+  img{
+    display:none;
+    height:auto;
+    width:100vw;
+    text-align: center;
+    margin:0 auto;
+    filter:drop-shadow(5px 5px 10px #5555);
+  }
+}
